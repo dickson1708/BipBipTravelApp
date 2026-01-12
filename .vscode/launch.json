@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-BipBipTravelApp<bip-bip-travel-app>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.bipbiptravel.app.BipBipTravelApp",
+      "projectName": "bip-bip-travel-app",
+      "args": "--spring.profiles.active=dev",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "internalConsole"
+    }
+  ]
+}
